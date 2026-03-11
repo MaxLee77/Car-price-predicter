@@ -1,0 +1,2310 @@
+{
+  "cat_cols": [
+    "Brand",
+    "Model",
+    "Transmission",
+    "Color",
+    "FuelType"
+  ],
+  "num_cols": [
+    "Year",
+    "Mileage_km"
+  ],
+  "feature_cols": [
+    "Year",
+    "Mileage_km",
+    "Brand",
+    "Model",
+    "Transmission",
+    "Color",
+    "FuelType"
+  ],
+  "brands_models": {
+    "Bmw": [
+      "316",
+      "520",
+      "I3",
+      "I4",
+      "I5",
+      "M6",
+      "X3",
+      "X7"
+    ],
+    "Boshqa": [
+      "001",
+      "007",
+      "1111 ока",
+      "1118 kalina седан",
+      "2105",
+      "2106",
+      "2107",
+      "21214 niva",
+      "2170 priora",
+      "2171 priora",
+      "31029",
+      "3110",
+      "31105",
+      "3162",
+      "412",
+      "4x4",
+      "626",
+      "Aion s max",
+      "Aion s plus",
+      "Aion v plus",
+      "Aion y plus",
+      "Alero",
+      "Boshqa",
+      "Boshqalar",
+      "C11 ev",
+      "C16",
+      "Captiva",
+      "Carnival",
+      "Chazor",
+      "Co1 reev",
+      "Cobalt",
+      "Damas",
+      "Deepal s09",
+      "Deepal s7",
+      "Deepal sl03",
+      "Encino ev",
+      "Epica",
+      "Equinox",
+      "Espero",
+      "Focus",
+      "G",
+      "Hilux",
+      "Kodiaq",
+      "L7",
+      "L9",
+      "Labo",
+      "Lacetti / gentra",
+      "Land cruiser 200",
+      "Land cruiser 80",
+      "Largus",
+      "M3",
+      "M4",
+      "Matiz",
+      "Mustang",
+      "Nexia",
+      "Nomalum",
+      "Onix",
+      "Orlando",
+      "Palisade",
+      "Passat",
+      "S1",
+      "Santa fe",
+      "Song pro dm-i champion",
+      "Spark",
+      "Tempra",
+      "Tico",
+      "Tracker",
+      "Transporter",
+      "Traverse",
+      "Tucson",
+      "X",
+      "X-ray"
+    ],
+    "Byd": [
+      "Boshqa",
+      "Chazor",
+      "E2",
+      "Han",
+      "Nomalum",
+      "Qin ev",
+      "Seagull",
+      "Seal",
+      "Song l",
+      "Song plus dm-i champion",
+      "Song plus ev champion",
+      "Song pro dm-i champion",
+      "Yuan up"
+    ],
+    "Chery": [
+      "Arrizo 6 pro",
+      "Nomalum",
+      "Tiggo 7 pro",
+      "Tiggo 8 pro"
+    ],
+    "Chevrolet": [
+      "Blazer",
+      "Boshqalar",
+      "Captiva",
+      "Cobalt",
+      "Damas",
+      "Lacetti / gentra",
+      "Malibu",
+      "Monza",
+      "Nexia",
+      "Onix",
+      "Spark",
+      "Tracker",
+      "Traverse"
+    ],
+    "Daewoo": [
+      "Boshqa",
+      "Damas",
+      "Labo",
+      "Matiz",
+      "Nexia",
+      "Tico"
+    ],
+    "Deepal": [
+      "Deepal s7",
+      "Deepal sl03",
+      "Nomalum"
+    ],
+    "Hyundai": [
+      "Avante",
+      "Creta",
+      "Elantra",
+      "Santa fe"
+    ],
+    "Kia": [
+      "Boshqa",
+      "Carnival",
+      "Ev3",
+      "Ev6",
+      "K5",
+      "Sonet",
+      "Sorento",
+      "Sportage"
+    ],
+    "Lada": [
+      "2106",
+      "2107",
+      "21072",
+      "2108",
+      "21083",
+      "2109",
+      "21093",
+      "21099",
+      "Granta",
+      "Vesta"
+    ],
+    "Leapmotor": [
+      "Aion s max",
+      "Boshqa",
+      "C10 ev",
+      "C10 reev",
+      "C11 ev",
+      "C16",
+      "Co1 reev",
+      "Nomalum",
+      "Song plus ev champion"
+    ],
+    "Mercedes": [
+      "Amg gt 43",
+      "Boshqa",
+      "Coupe",
+      "E 300",
+      "Eqs 450",
+      "Gl 450",
+      "Gls 500",
+      "Vito"
+    ],
+    "Nissan": [
+      "Patrol"
+    ],
+    "Opel": [
+      "Omega"
+    ],
+    "Tesla": [
+      "Model x"
+    ],
+    "Toyota": [
+      "Alphard",
+      "Camry",
+      "Corolla",
+      "Crown",
+      "Land cruiser 200",
+      "Prius"
+    ],
+    "Volkswagen": [
+      "Id.4"
+    ]
+  },
+  "brand_model_options": {
+    "Bmw||316": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Bmw||520": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Bmw||I3": {
+      "colors": [
+        "kumush rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Bmw||I4": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Bmw||I5": {
+      "colors": [
+        "kok",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Bmw||M6": {
+      "colors": [
+        "qizil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Bmw||X3": {
+      "colors": [
+        "moviy rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Bmw||X7": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||001": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "boshqa"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||007": {
+      "colors": [
+        "kok",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||1111 ока": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||1118 kalina седан": {
+      "colors": [
+        "qizil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||2105": {
+      "colors": [
+        "qizil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||2106": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||2107": {
+      "colors": [
+        "olcha rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||21214 niva": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||2170 priora": {
+      "colors": [
+        "jigar rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||2171 priora": {
+      "colors": [
+        "kumush rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||31029": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||3110": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||31105": {
+      "colors": [
+        "bronza rang",
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||3162": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||412": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||4x4": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||626": {
+      "colors": [
+        "moviy rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "dizel"
+      ]
+    },
+    "Boshqa||Aion s max": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Aion s plus": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Aion v plus": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "boshqa"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Aion y plus": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Alero": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Boshqa": {
+      "colors": [
+        "kok",
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "boshqa",
+        "gaz/benzin",
+        "gibrid"
+      ]
+    },
+    "Boshqa||Boshqalar": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "elektro",
+        "gaz/benzin",
+        "gibrid"
+      ]
+    },
+    "Boshqa||C11 ev": {
+      "colors": [
+        "kumush rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||C16": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Captiva": {
+      "colors": [
+        "bronza rang",
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Carnival": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "dizel"
+      ]
+    },
+    "Boshqa||Chazor": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Co1 reev": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Cobalt": {
+      "colors": [
+        "asalt",
+        "kok",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Damas": {
+      "colors": [
+        "och jigar rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Deepal s09": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Deepal s7": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Deepal sl03": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Encino ev": {
+      "colors": [
+        "asalt"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Epica": {
+      "colors": [
+        "och jigar rang",
+        "oq",
+        "safari"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Equinox": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Espero": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Focus": {
+      "colors": [
+        "olcha rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||G": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Hilux": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Kodiaq": {
+      "colors": [
+        "asalt",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||L7": {
+      "colors": [
+        "asalt",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||L9": {
+      "colors": [
+        "kul rang",
+        "kumush rang",
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gibrid"
+      ]
+    },
+    "Boshqa||Labo": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Lacetti / gentra": {
+      "colors": [
+        "asalt",
+        "kul rang",
+        "kumush rang",
+        "moviy rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Land cruiser 200": {
+      "colors": [
+        "och jigar rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "dizel"
+      ]
+    },
+    "Boshqa||Land cruiser 80": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Largus": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||M3": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||M4": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Matiz": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "yashil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Mustang": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Boshqa||Nexia": {
+      "colors": [
+        "asalt",
+        "kul rang",
+        "oq",
+        "tilla rang"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Nomalum": {
+      "colors": [
+        "asalt",
+        "kok",
+        "kul rang",
+        "oq",
+        "qora",
+        "sariq",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "boshqa",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "elektro",
+        "gaz/benzin",
+        "gibrid"
+      ]
+    },
+    "Boshqa||Onix": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Orlando": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Palisade": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Passat": {
+      "colors": [
+        "tilla rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||S1": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Santa fe": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Song pro dm-i champion": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||Spark": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Tempra": {
+      "colors": [
+        "kok"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Boshqa||Tico": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Tracker": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Transporter": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "dizel",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Traverse": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||Tucson": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "boshqa"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Boshqa||X": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Boshqa||X-ray": {
+      "colors": [
+        "hamelion"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Byd||Boshqa": {
+      "colors": [
+        "oq",
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Chazor": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "boshqa"
+      ],
+      "fuels": [
+        "benzin",
+        "gibrid"
+      ]
+    },
+    "Byd||E2": {
+      "colors": [
+        "asalt",
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Han": {
+      "colors": [
+        "kumush rang",
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Nomalum": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro",
+        "gibrid"
+      ]
+    },
+    "Byd||Qin ev": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Seagull": {
+      "colors": [
+        "kul rang",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Seal": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Byd||Song l": {
+      "colors": [
+        "asalt",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Song plus dm-i champion": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Byd||Song plus ev champion": {
+      "colors": [
+        "asalt",
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Byd||Song pro dm-i champion": {
+      "colors": [
+        "kul rang",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Byd||Yuan up": {
+      "colors": [
+        "kul rang",
+        "kumush rang",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Chery||Arrizo 6 pro": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chery||Nomalum": {
+      "colors": [
+        "qizil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chery||Tiggo 7 pro": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chery||Tiggo 8 pro": {
+      "colors": [
+        "kumush rang",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chevrolet||Blazer": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chevrolet||Boshqalar": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Captiva": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "qora",
+        "safari"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "boshqa"
+      ],
+      "fuels": [
+        "benzin",
+        "boshqa",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Cobalt": {
+      "colors": [
+        "asalt",
+        "hamelion",
+        "jigar rang",
+        "kul rang",
+        "kumush rang",
+        "moviy rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Damas": {
+      "colors": [
+        "oq",
+        "safari"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Lacetti / gentra": {
+      "colors": [
+        "asalt",
+        "kok",
+        "kul rang",
+        "kumush rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Malibu": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Monza": {
+      "colors": [
+        "kumush rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chevrolet||Nexia": {
+      "colors": [
+        "kumush rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Onix": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Chevrolet||Spark": {
+      "colors": [
+        "asalt",
+        "jigar rang",
+        "kok",
+        "moviy rang",
+        "oq",
+        "qizil",
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Tracker": {
+      "colors": [
+        "asalt",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Chevrolet||Traverse": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Daewoo||Boshqa": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Daewoo||Damas": {
+      "colors": [
+        "kok",
+        "och jigar rang",
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "boshqa",
+        "gaz/benzin"
+      ]
+    },
+    "Daewoo||Labo": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Daewoo||Matiz": {
+      "colors": [
+        "apelsin",
+        "asalt",
+        "kul rang",
+        "och jigar rang",
+        "oq",
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Daewoo||Nexia": {
+      "colors": [
+        "asalt",
+        "jigar rang",
+        "kok",
+        "kul rang",
+        "kumush rang",
+        "moviy rang",
+        "olcha rang",
+        "oq",
+        "qizil",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Daewoo||Tico": {
+      "colors": [
+        "kumush rang",
+        "oq",
+        "yashil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Deepal||Deepal s7": {
+      "colors": [
+        "kul rang",
+        "qora",
+        "sariq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Deepal||Deepal sl03": {
+      "colors": [
+        "kul rang",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gaz/benzin",
+        "gibrid"
+      ]
+    },
+    "Deepal||Nomalum": {
+      "colors": [
+        "kumush rang",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Hyundai||Avante": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Hyundai||Creta": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Hyundai||Elantra": {
+      "colors": [
+        "asalt",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Hyundai||Santa fe": {
+      "colors": [
+        "kul rang",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Kia||Boshqa": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Kia||Carnival": {
+      "colors": [
+        "asalt",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "dizel",
+        "gaz/benzin"
+      ]
+    },
+    "Kia||Ev3": {
+      "colors": [
+        "jilosiz"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "boshqa"
+      ]
+    },
+    "Kia||Ev6": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "boshqa"
+      ]
+    },
+    "Kia||K5": {
+      "colors": [
+        "kumush rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Kia||Sonet": {
+      "colors": [
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Kia||Sorento": {
+      "colors": [
+        "kul rang",
+        "moviy rang",
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Kia||Sportage": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||2106": {
+      "colors": [
+        "kok",
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Lada||2107": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Lada||21072": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Lada||2108": {
+      "colors": [
+        "hamelion"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||21083": {
+      "colors": [
+        "qizil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||2109": {
+      "colors": [
+        "och jigar rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||21093": {
+      "colors": [
+        "oq",
+        "qizil"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||21099": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Lada||Granta": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "gaz/benzin"
+      ]
+    },
+    "Lada||Vesta": {
+      "colors": [
+        "kul rang",
+        "oq"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Leapmotor||Aion s max": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Leapmotor||Boshqa": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Leapmotor||C10 ev": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Leapmotor||C10 reev": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Leapmotor||C11 ev": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Leapmotor||C16": {
+      "colors": [
+        "qora",
+        "yashil"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Leapmotor||Co1 reev": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Leapmotor||Nomalum": {
+      "colors": [
+        "kul rang",
+        "oq",
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin",
+        "elektro",
+        "gibrid"
+      ]
+    },
+    "Leapmotor||Song plus ev champion": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Mercedes||Amg gt 43": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Mercedes||Boshqa": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Mercedes||Coupe": {
+      "colors": [
+        "asalt"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "dizel"
+      ]
+    },
+    "Mercedes||E 300": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Mercedes||Eqs 450": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Mercedes||Gl 450": {
+      "colors": [
+        "kul rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Mercedes||Gls 500": {
+      "colors": [
+        "olcha rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Mercedes||Vito": {
+      "colors": [
+        "kok"
+      ],
+      "transmissions": [
+        "mexanik"
+      ],
+      "fuels": [
+        "dizel"
+      ]
+    },
+    "Nissan||Patrol": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Opel||Omega": {
+      "colors": [
+        "kumush rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Tesla||Model x": {
+      "colors": [
+        "asalt"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    },
+    "Toyota||Alphard": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Toyota||Camry": {
+      "colors": [
+        "jigar rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Toyota||Corolla": {
+      "colors": [
+        "oq"
+      ],
+      "transmissions": [
+        "avtomatik",
+        "mexanik"
+      ],
+      "fuels": [
+        "benzin",
+        "gaz/benzin"
+      ]
+    },
+    "Toyota||Crown": {
+      "colors": [
+        "jigar rang"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Toyota||Land cruiser 200": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "benzin"
+      ]
+    },
+    "Toyota||Prius": {
+      "colors": [
+        "qora"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "gibrid"
+      ]
+    },
+    "Volkswagen||Id.4": {
+      "colors": [
+        "kok"
+      ],
+      "transmissions": [
+        "avtomatik"
+      ],
+      "fuels": [
+        "elektro"
+      ]
+    }
+  },
+  "colors": [
+    "apelsin",
+    "asalt",
+    "bronza rang",
+    "hamelion",
+    "jigar rang",
+    "jilosiz",
+    "kok",
+    "kul rang",
+    "kumush rang",
+    "moviy rang",
+    "och jigar rang",
+    "olcha rang",
+    "oq",
+    "qizil",
+    "qora",
+    "safari",
+    "sariq",
+    "tilla rang",
+    "yashil"
+  ],
+  "transmissions": [
+    "avtomatik",
+    "boshqa",
+    "mexanik"
+  ],
+  "fuels": [
+    "benzin",
+    "boshqa",
+    "dizel",
+    "elektro",
+    "gaz/benzin",
+    "gibrid"
+  ],
+  "year_min": 1990,
+  "year_max": 2026,
+  "mileage_max": 800000,
+  "total_records": 692,
+  "mae": 4934.59,
+  "r2": 0.7935
+}

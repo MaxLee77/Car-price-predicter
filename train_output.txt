@@ -1,0 +1,51 @@
+﻿venv\Scripts\python.exe : 
+C:\Users\msi\Pricer\train_model.py:55: 
+FutureWarning: A value is trying to be set on a 
+copy of a DataFrame or Series through chained 
+assignment using an inplace method.
+At line:1 char:1
++ venv\Scripts\python.exe train_model.py 2>&1 | 
+Out-File -FilePath trai ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C: 
+   \Users\msi\Pr...inplace method.:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+The behavior will change in pandas 3.0. This 
+inplace method will never work because the 
+intermediate object on which we are setting 
+values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, 
+inplace=True)', try using 'df.method({col: 
+value}, inplace=True)' or df[col] = 
+df[col].method(value) instead, to perform the 
+operation inplace on the original object.
+
+
+  df['Mileage_km'].fillna(df['Mileage_km'].media
+n(), inplace=True)
+CSV da jami: 698 qator
+Tozalangandan keyin: 692 qator
+Traceback (most recent call last):
+  File "C:\Users\msi\Pricer\train_model.py", 
+line 162, in <module>
+    train_main()
+    ~~~~~~~~~~^^
+  File "C:\Users\msi\Pricer\train_model.py", 
+line 117, in train_main
+    print(f"\n\u2705 Model o'qitildi!")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftw
+areFoundation.Python.3.13_3.13.3312.0_x64__qbz5n
+2kfra8p0\Lib\encodings\cp1251.py", line 19, in 
+encode
+    return codecs.charmap_encode(input,self.erro
+rs,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't 
+encode character '\u2705' in position 2: 
+character maps to <undefined>
